@@ -9,11 +9,11 @@ typedef class Triangle
     public:
     void setdata()
     {
-        cout<<"Enter the length of first side"<<endl;
+        cout<<"Enter the length of first side:"<<endl;
         cin>>a;
-        cout<<"Enter the length of second side"<<endl;
+        cout<<"Enter the length of second side:"<<endl;
         cin>>b;
-        cout<<"Enter the length of third side"<<endl;
+        cout<<"Enter the length of third side:"<<endl;
         cin>>c;
     }
     void display()
