@@ -12,7 +12,7 @@ class Complex {
             imag = i;
         }
 
-        friend Complex operator+(Complex const &c1, Complex const &c2);
+       friend Complex operator+(Complex const &c1, Complex const &c2);
 
         void print() {
             cout <<"The addition is : "<< real << " + " << imag << "i" << endl;
